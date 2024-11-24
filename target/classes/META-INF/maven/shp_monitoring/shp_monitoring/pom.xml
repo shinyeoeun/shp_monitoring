@@ -37,6 +37,7 @@
 	</dependencies>
 
 	<build>
+		<defaultGoal>install</defaultGoal>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -45,7 +46,7 @@
 				<configuration>
 					<encoding>UTF-8</encoding>
 					<suiteXmlFiles>
-						<suiteXmlFile>${xml}.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 						<!-- <suiteXmlFile>suite_00_blog_all.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 					<!-- <workingDirectory>target/surefire-reports</workingDirectory> -->

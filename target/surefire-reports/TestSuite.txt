@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 1.454 sec <<< FAILURE! - in TestSuite
+beforeSuite(com.naver.shopping.Suite_01_smartstore_product)  Time elapsed: 1.323 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Native Injection is NOT supported for @BeforeSuite annotated beforeSuite.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+

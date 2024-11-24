@@ -3,9 +3,10 @@
 
 <suite name="shoppingWeb monitoring" parallel="tests" thread-count="10">
 
-	<test name="FinPCWeb Automatic Guide Test" preserve-order="true">
+	<test name="shopping monitoring" preserve-order="true">
 		<classes>
 			<class name="com.naver.shopping.Suite_01_smartstore_product" />
 		</classes>
 	</test>
+	
 </suite>
