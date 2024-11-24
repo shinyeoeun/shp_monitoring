@@ -46,7 +46,7 @@
 				<configuration>
 					<encoding>UTF-8</encoding>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>${xmlSuiteFileName}</suiteXmlFile>
 						<!-- <suiteXmlFile>suite_00_blog_all.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 					<!-- <workingDirectory>target/surefire-reports</workingDirectory> -->
