@@ -44,7 +44,6 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19.1</version>
 				<configuration>
-					<encoding>UTF-8</encoding>
 					<suiteXmlFiles>
 						<suiteXmlFile>${xmlSuiteFileName}</suiteXmlFile>
 						<!-- <suiteXmlFile>suite_00_blog_all.xml</suiteXmlFile> -->
