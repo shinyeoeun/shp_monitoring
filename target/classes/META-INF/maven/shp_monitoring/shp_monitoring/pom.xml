@@ -45,7 +45,7 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>${xmlSuiteFileName}</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 						<!-- <suiteXmlFile>suite_00_blog_all.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 					<!-- <workingDirectory>target/surefire-reports</workingDirectory> -->
